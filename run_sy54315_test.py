@@ -64,7 +64,7 @@ def new_report(testreport):
     # 重新按时间对目录下的文件进行排序
     lists.sort(key=lambda fn: os.path.getatime(testreport + "\\" + fn))
     file_new = os.path.join(testreport, lists[-1])
-    print(file_new)
+    # print(file_new)
     return file_new
 
 

@@ -2,6 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
 from time import sleep
+import datetime
 import unittest
 
 
@@ -14,8 +15,8 @@ class Base(object):
         self.timeout = 30
 
     def _open(self, url):
-        url_ = url_ = self.base_url + url
-        print(url_)
+        url_ = self.base_url + url
+        # print(url_)
         self.driver.maximize_window()
         self.driver.get(url_)
         sleep(2)
@@ -30,6 +31,12 @@ class Base(object):
 
     def select_element(self, *loc):
         return Select(self.find_element(*loc))
+
+    def date_today(self):
+        return str(datetime.date.today())
+
+    def date_endday(self):
+        return str(datetime.date.today() + datetime.timedelta(days=7))
 
     #
     # def iframe(self,iframeid):
