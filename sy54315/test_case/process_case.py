@@ -19,4 +19,4 @@ class ProcessTest(myunit.MyTest):
         po2.breedName_search_text("金银花")
         po2.choose_medSource_select(1)
         po2.search_button_click()
-        sleep(10)
+        sleep(2)

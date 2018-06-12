@@ -23,7 +23,7 @@ def send_mail(file_new):
     # 接收邮箱
     receiver = '185143666@qq.com'
     # 今天日期
-    today = str(datetime.date.today())
+    # today = str(datetime.date.today())
 
     sendfile = open(file_new, 'rb')
     mail_body = sendfile.read()
