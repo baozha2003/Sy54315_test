@@ -21,7 +21,7 @@ def send_mail(file_new):
     # 发送邮箱
     sender = 'baozha2003@163.com'
     # 接收邮箱
-    receiver = '185143666@qq.com'
+    receiver = ['185143666@qq.com','523228680@qq.com']
     # 今天日期
     # today = str(datetime.date.today())
 
@@ -34,10 +34,10 @@ def send_mail(file_new):
     msg = MIMEMultipart()
     # 定义发件人和收件人参数
     msg['from'] = 'baozha2003@163.com'
-    msg['to'] = '185143666@qq.com'
+    msg['to'] = '185143666@qq.com,523228680@qq.com'
 
     # 发送邮件主题
-    subject = '测试报告'
+    subject = '自动化测试报告'
     msg['Subject'] = Header(subject, 'utf-8')
 
     # 邮件正文内容
@@ -80,7 +80,7 @@ if __name__ == '__main__':
     fp = open(filename, 'wb')
     # 定义测试报告
     runner = HTMLTestRunner(stream=fp,
-                            title='百度搜索测试报告',
+                            title='Sy54315测试报告',
                             description='用例执行情况：')
 
     runner.run(discover)  # 运行测试用例
