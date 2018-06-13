@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8387c63-6184-446e-8a30-9b0231d02916" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run_sy54315_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_sy54315_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sy54315/report/image/Login_Nullerror.png" beforeDir="false" afterPath="$PROJECT_DIR$/sy54315/report/image/Login_Nullerror.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sy54315/report/image/Login_success.png" beforeDir="false" afterPath="$PROJECT_DIR$/sy54315/report/image/Login_success.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sy54315/report/image/addplant_task_success.png" beforeDir="false" afterPath="$PROJECT_DIR$/sy54315/report/image/addplant_task_success.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sy54315/report/image/addplantsuccess.png" beforeDir="false" afterPath="$PROJECT_DIR$/sy54315/report/image/addplantsuccess.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,12 +13,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="driver.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sy54315/test_case/models/driver.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webdriver.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python36/Lib/site-packages/selenium/webdriver/chrome/webdriver.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="94">
+              <caret line="32" column="38" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="run_sy54315_test.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/run_sy54315_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="82" column="46" selection-start-line="82" selection-start-column="46" selection-end-line="82" selection-end-column="46" />
+            <state relative-caret-position="277">
+              <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -96,7 +111,25 @@
             <path>
               <item name="Sy54315_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="Sy54315_test" type="462c0819:PsiDirectoryNode" />
+              <item name="package" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sy54315_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sy54315_test" type="462c0819:PsiDirectoryNode" />
               <item name="sy54315" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sy54315_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sy54315_test" type="462c0819:PsiDirectoryNode" />
+              <item name="sy54315" type="462c0819:PsiDirectoryNode" />
+              <item name="test_case" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sy54315_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sy54315_test" type="462c0819:PsiDirectoryNode" />
+              <item name="sy54315" type="462c0819:PsiDirectoryNode" />
+              <item name="test_case" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -307,7 +340,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24968314" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50126743" side_tool="true" visible="true" weight="0.32962447" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49873257" visible="true" weight="0.32962447" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49873257" weight="0.32962447" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49873257" weight="0.32823366" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -374,6 +407,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/run_sy54315_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1406">
+          <caret line="82" column="46" selection-start-line="82" selection-start-column="46" selection-end-line="82" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sy54315/test_case/models/driver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -591,17 +631,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Python36/Lib/site-packages/selenium/webdriver/chrome/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sy54315/test_case/models/driver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        <state relative-caret-position="114">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/run_sy54315_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="82" column="46" selection-start-line="82" selection-start-column="46" selection-end-line="82" selection-end-column="46" />
+        <state relative-caret-position="277">
+          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
         </state>
       </provider>
     </entry>

@@ -37,7 +37,7 @@ def send_mail(file_new):
     msg['to'] = '185143666@qq.com,523228680@qq.com'
 
     # 发送邮件主题
-    subject = '自动化测试报告'
+    subject = 'Sy54315自动化测试报告'
     msg['Subject'] = Header(subject, 'utf-8')
 
     # 邮件正文内容
