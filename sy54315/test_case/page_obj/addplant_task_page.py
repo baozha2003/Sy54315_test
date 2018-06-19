@@ -54,7 +54,7 @@ class AddPlantTaskPage(Base):
         self.find_element(*self.task_describe_text_loc).send_keys("用铲子或锄子将垄间杂草铲除，行内杂草用手拔出，不伤苗，不带苗。")
 
     def startTime_text(self):
-        self.find_element(*self.startTime_text_loc).send_keys(self.date_endday())
+        self.find_element(*self.startTime_text_loc).send_keys(self.date_today())
 
     def endTime_text(self):
         self.find_element(*self.endTime_text_loc).send_keys(self.date_endday())
