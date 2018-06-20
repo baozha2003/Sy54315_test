@@ -4,7 +4,7 @@ from .base import Base
 
 class PlantPage(Base):
     #种植管理页面
-    plant_page_button_loc = (By.XPATH,'/html/body/section/menu/ul/li/ul/li[1]/a/span')
+    to_plant_page_loc = (By.XPATH, '/html/body/section/menu/ul/li/ul/li[1]/a/span')
     #新增计划按钮
     add_plant_button_loc = (By.XPATH, '/html/body/section/section/div[2]/a[1]')
     #下达任务按钮
@@ -18,7 +18,7 @@ class PlantPage(Base):
 
     # 把每一个元素封装成一个方法
     def to_plant_page(self):
-        self.find_element(*self.plant_page_button_loc).click()
+        self.find_element(*self.to_plant_page_loc).click()
 
     def add_plant_click(self):
         self.find_element(*self.add_plant_button_loc).click()

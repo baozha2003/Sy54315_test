@@ -8,6 +8,7 @@ sys.path.append('./page_obj')
 
 
 class LoginTest(myunit.MyTest):
+    """测试登陆"""
 
     def test_login_user_pwd_success(self):
         """测试正常Login"""
