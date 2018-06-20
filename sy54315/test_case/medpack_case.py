@@ -14,7 +14,7 @@ sys.path.append('./page_obj')
 class MedPackTest(myunit.MyTest):
     """分包页面测试"""
 
-    def upload_quality_data(self):
+    def test_upload_quality_data(self):
         """上传质检数据"""
         po = LoginPage(self.driver)
         po.open()
@@ -25,3 +25,4 @@ class MedPackTest(myunit.MyTest):
         po2.quality_data_upload()
         sleep(1)
         self.assertEqual(po2.subpackage_successful_text(),'上传成功!')
+        function.insert_img(self.driver, "subpackage_successful.png")

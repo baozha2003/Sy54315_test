@@ -37,7 +37,7 @@ class MedPackPage(Base):
     subpackage_successful_text_loc = (By.XPATH,'/html/body/div[1]/div[2]/p')
 
     def to_medpack_page(self):
-        self.find_element(self.to_medpack_page_loc).click()
+        self.find_element(*self.to_medpack_page_loc).click()
 
     def choose_medSource_select(self, text=2):
         if text > 2:
@@ -49,41 +49,42 @@ class MedPackPage(Base):
         self.find_element(self.search_button_loc).click()
 
     def quality_data_button_click(self):
-        self.find_element(self.quality_data_button_loc).click
+        self.find_element(*self.quality_data_button_loc).click()
 
     def qualityer_text_sendkeys(self, key='马铃薯'):
-        self.find_element(self.qualityer_text_loc).send_keys(key)
+        self.find_element(*self.qualityer_text_loc).send_keys(key)
 
     def quality_date_text_sendkeys(self):
-        self.find_element(self.quality_date_text_loc).send_keys(self.date_today())
+        self.find_element(*self.quality_date_text_loc).send_keys(self.date_today())
 
     def storage_condition_text_sendkeys(self):
-        self.find_element(self.storage_condition_text_loc).sendkeys('干燥冷藏保存')
+        self.find_element(*self.storage_condition_text_loc).send_keys('干燥冷藏保存')
 
     def quality_report_file_upload(self):
         file_path = os.path.abspath('质检报告.jpg')
-        self.find_element(self.quality_report_file_loc).send_keys(file_path)
+        print(file_path)
+        self.find_element(*self.quality_report_file_loc).send_keys(file_path)
 
     def uploading_report_button_click(self):
-        self.find_element(self.uploading_report_button_loc).click()
+        self.find_element(*self.uploading_report_button_loc).click()
 
     def check_report_button_click(self):
-        self.find_element(self.check_report_button_loc).click()
+        self.find_element(*self.check_report_button_loc).click()
 
     def subpackage_button_click(self):
-        self.find_element(self.subpackage_button_loc).click()
+        self.find_element(*self.subpackage_button_loc).click()
 
     def subpackage_quantity_text_sendkeys(self, key='1'):
-        self.find_element(self.subpackage_quantity_text_loc).send_keys(key)
+        self.find_element(*self.subpackage_quantity_text_loc).send_keys(key)
 
     def package_weight_text_sendkeys(self):
-        self.find_element(self.package_weight_text_loc).send_keys('100')
+        self.find_element(*self.package_weight_text_loc).send_keys('100')
 
     def subpackage_confirm_button_click(self):
-        self.find_element(self.subpackage_confirm_button_loc).click()
+        self.find_element(*self.subpackage_confirm_button_loc).click()
 
     def subpackage_successful_text(self):
-        reresult  = self.find_element(self.subpackage_successful_text_loc).text
+        reresult  = self.find_element(*self.subpackage_successful_text_loc).text
         return reresult
 
     def quality_data_upload(self):
@@ -93,4 +94,5 @@ class MedPackPage(Base):
         self.quality_date_text_sendkeys()
         self.storage_condition_text_sendkeys()
         self.quality_report_file_upload()
+        sleep(3)
         self.uploading_report_button_click()

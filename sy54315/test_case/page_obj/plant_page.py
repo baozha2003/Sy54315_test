@@ -15,6 +15,8 @@ class PlantPage(Base):
     breedName_search_text_loc = (By.NAME,'breedName')
     #搜索按钮
     search_button_loc = (By.XPATH, '//*[@id="queryForm"]/ul/li[6]/input')
+    #完成计划按钮
+    
 
     # 把每一个元素封装成一个方法
     def to_plant_page(self):
@@ -34,6 +36,8 @@ class PlantPage(Base):
 
     def search_click(self):
         self.find_element(*self.search_button_loc).click()
+
+    
 
 
 
