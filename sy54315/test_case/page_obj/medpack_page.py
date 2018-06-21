@@ -96,3 +96,4 @@ class MedPackPage(Base):
         self.quality_report_file_upload()
         sleep(3)
         self.uploading_report_button_click()
+

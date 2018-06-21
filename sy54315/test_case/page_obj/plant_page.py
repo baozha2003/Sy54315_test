@@ -1,5 +1,6 @@
 from selenium.webdriver.common.by import By
 from .base import Base
+from time import sleep
 
 
 class PlantPage(Base):
@@ -16,6 +17,9 @@ class PlantPage(Base):
     #搜索按钮
     search_button_loc = (By.XPATH, '//*[@id="queryForm"]/ul/li[6]/input')
     #完成计划按钮
+    finish_plant_button_loc = (By.XPATH,'//*[@id="Fixed"]/table/tbody/tr/td[2]/div/table/tbody/tr[2]/td/a[2]')
+    finish_plant_confirm_button_loc = (By.XPATH,'//*[@id="btn_0"]')
+    finish_successful_reresult_lof = (By.CLASS_NAME,'tishi')
     
 
     # 把每一个元素封装成一个方法
@@ -37,8 +41,14 @@ class PlantPage(Base):
     def search_click(self):
         self.find_element(*self.search_button_loc).click()
 
-    
+    def finish_plant(self):
+        self.find_element(*self.finish_plant_button_loc).click()
+        sleep(1)
+        self.find_element(*self.finish_plant_confirm_button_loc).click()
+        sleep(1)
 
-
+    def finish_successful_reresult(self):
+        reresult = self.find_element(*self.finish_successful_reresult_lof).text
+        return reresult
 
 

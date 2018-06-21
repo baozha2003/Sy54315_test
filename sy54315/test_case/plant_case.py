@@ -46,6 +46,7 @@ class PlantTest(myunit.MyTest):
         function.insert_img(self.driver, 'addplant_task_success.png')
 
     def test_finish_plant(self):
+        """测试完成计划"""
         po = LoginPage(self.driver)
         po.open()
         po.login_action(13727086330, "qwe123")
@@ -53,4 +54,7 @@ class PlantTest(myunit.MyTest):
         po2 = PlantPage(self.driver)
         po2.to_plant_page()
         sleep(1)
+        po2.finish_plant()
+        self.assertEqual(po2.finish_successful_reresult(),'操作成功！')
+        function.insert_img(self.driver, 'finish_plant_successful_reresult.png')
 
