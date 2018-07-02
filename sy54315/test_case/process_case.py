@@ -19,4 +19,7 @@ class ProcessTest(myunit.MyTest):
         po2.breedName_search_text("金银花")
         po2.choose_medSource_select(1)
         po2.search_button_click()
-        sleep(2)
+        sleep(1)
+        self.assertEqual(po2.frist_line_breedName(),"金银花")
+        function.insert_img(self.driver,'search_process_reresult.png')
+

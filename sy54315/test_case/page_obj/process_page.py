@@ -17,6 +17,8 @@ class ProcessPage(Base):
     search_button_loc = (By.XPATH, '//*[@id="queryForm"]/ul/li[6]/input')
     # checkbox1
     checkbox1_click_loc = (By.XPATH, '/html/body/section/section/table/tbody/tr[2]/td[1]/input')
+    # 第一行药材名
+    frist_line_breedName_loc = (By.XPATH,'/html/body/section/section/table/tbody/tr[2]/td[3]')
 
     def to_process_page(self):
         self.find_element(*self.to_process_page_loc).click()
@@ -39,3 +41,7 @@ class ProcessPage(Base):
 
     def search_button_click(self):
         self.find_element(*self.search_button_loc).click()
+
+    def frist_line_breedName(self):
+        result = self.find_element(*self.frist_line_breedName_loc).text
+        return result

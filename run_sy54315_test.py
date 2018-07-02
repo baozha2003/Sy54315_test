@@ -34,7 +34,7 @@ def send_mail(file_new):
     msg = MIMEMultipart()
     # 定义发件人和收件人参数
     msg['from'] = 'baozha2003@163.com'
-    msg['to'] = '185143666@qq.com,523228680@qq.com'
+    # msg['to'] = '185143666@qq.com,523228680@qq.com'
 
     # 发送邮件主题
     subject = 'Sy54315自动化测试报告'

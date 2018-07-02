@@ -38,9 +38,9 @@ class Base(object):
     def date_endday(self):
         return str(datetime.date.today() + datetime.timedelta(days=7))
 
-    #
-    # def iframe(self,iframeid):
-    #     return self.driver.switch_to.frame(iframeid)
-    #
-    # def iframe_out(self):
-    #     return self.driver.switch_to.default_content()
+
+    def iframe(self,iframeid):
+        return self.driver.switch_to.frame(iframeid)
+
+    def iframe_out(self):
+        return self.driver.switch_to.default_content()
