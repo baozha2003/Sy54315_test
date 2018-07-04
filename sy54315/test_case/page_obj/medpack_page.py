@@ -61,7 +61,7 @@ class MedPackPage(Base):
         self.find_element(*self.storage_condition_text_loc).send_keys('干燥冷藏保存')
 
     def quality_report_file_upload(self):
-        file_path = os.path.abspath('质检报告.jpg')
+        file_path = os.path.abspath('图片上传.jpg')
         print(file_path)
         self.find_element(*self.quality_report_file_loc).send_keys(file_path)
 
