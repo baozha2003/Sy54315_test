@@ -69,11 +69,11 @@ def new_report(testreport):
 
 
 if __name__ == '__main__':
-    test_dir = './sy54315/test_case/'
-    test_report = './sy54315/report/'
-    discover = unittest.defaultTestLoader.discover(test_dir, pattern='*case.py')
-    now = time.strftime("%Y-%m-%d %H_%M_%S")
-    filename = test_report + now + 'result.html'
+    test_dir = './sy54315/test_case/'#测试用例存放路径
+    test_report = './sy54315/report/'#报告存放路径
+    discover = unittest.defaultTestLoader.discover(test_dir, pattern='*case.py')#读取路径下的测试用例文件
+    now = time.strftime("%Y-%m-%d %H_%M_%S")#时间
+    filename = test_report + now + 'result.html'#文件名称
     runner = unittest.TextTestRunner()
 
     # 定义报告存放路径

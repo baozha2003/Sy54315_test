@@ -44,3 +44,6 @@ class Base(object):
 
     def iframe_out(self):
         return self.driver.switch_to.default_content()
+
+    def get_cookies(self):
+        return self.driver.get_cookies()
