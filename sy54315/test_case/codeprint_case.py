@@ -35,7 +35,7 @@ class CodePrintTest(myunit.MyTest):
         po = LoginPage(self.driver)
         po.open()
         po.login_action(13727086330, "qwe123")
-        # sleep(1)
+        sleep(1)
         # po2 = CodPrintPage(self.driver)
         # sleep(0.5)
         # po2.to_codprint_link()

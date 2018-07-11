@@ -47,3 +47,11 @@ class Base(object):
 
     def get_cookies(self):
         return self.driver.get_cookies()
+
+    def is_element_exist(self,name):
+        s = self.driver.find_elements_by_name(name)
+        if len(s) == 0:
+            print("元素未找到:%s" % name)
+            return False
+        else :
+            return True
