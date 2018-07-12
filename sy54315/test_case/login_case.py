@@ -3,7 +3,7 @@ import sys
 from sy54315.test_case.models import function, myunit
 from sy54315.test_case.page_obj.login_page import LoginPage
 
-sys.path.append('./model')
+sys.path.append('./models')
 sys.path.append('./page_obj')
 
 
