@@ -33,10 +33,10 @@ class MedPackPage(Base):
     package_weight_text_loc = (By.XPATH, '//*[@id="subPackage"]/ul/li[2]/input')
     # 确定分包按钮
     subpackage_confirm_button_loc = (By.XPATH, '// *[ @ id = "btn_0"]')
-    #分包成功输出
-    subpackage_successful_text_loc = (By.XPATH,'/html/body/div[1]/div[2]/p')
-    #下一页
-    next_page_button_loc = (By.XPATH,'//*[@id="_next_page_already"]')
+    # 分包成功输出
+    subpackage_successful_text_loc = (By.XPATH, '/html/body/div[1]/div[2]/p')
+    # 下一页
+    next_page_button_loc = (By.XPATH, '//*[@id="_next_page_already"]')
 
     def to_medpack_page(self):
         self.find_element(*self.to_medpack_page_loc).click()
@@ -86,12 +86,13 @@ class MedPackPage(Base):
         self.find_element(*self.subpackage_confirm_button_loc).click()
 
     def subpackage_successful_text(self):
-        reresult  = self.find_element(*self.subpackage_successful_text_loc).text
+        reresult = self.find_element(*self.subpackage_successful_text_loc).text
         return reresult
 
     def quality_data_upload(self):
+        # 判断页面是否存在上传按钮 没有就下一页
         for i in range(100):
-            if self.is_element_exist('file'):
+            if self.is_element_exist('NAME', 'file'):
                 self.quality_data_button_click()
                 sleep(1)
                 self.qualityer_text_sendkeys()

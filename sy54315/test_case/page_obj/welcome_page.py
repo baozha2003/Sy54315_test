@@ -10,9 +10,18 @@ class WelcomePage(Base):
     changepwd_button_loc = (By.XPATH, '/html/body/header/ul/li[2]/p/a[2]')
     # 鼠标悬停姓名处
     above = "/html/body/header/ul/li[2]/i[1]"
+    # 编辑提交个人资料
+    edit_myself_submit_button_loc = (By.ID, 'Confirm')
+    # 提交资料成功提示
+    edit_submit_successful_result = (By.XPATH, '/html/body/div[1]/div[2]/p')
 
     def to_edit_myself_page(self):
-        self.mouse_hover(self.above)
-        self.WaitElem(self.driver, xpath='/html/body/header/ul/li[2]/p/a[1]', timeout=5).click()
+        self.mouse_hover('XPATH', self.above)
+        self.WaitElem('/html/body/header/ul/li[2]/p/a[1]')
+        self.switch_to_window(1)
+        self.find_element(*self.edit_myself_submit_button_loc).click()
         # sleep(1)
         # self.find_element(*self.edit_myself_button_loc).click()
+
+    def submit_successful_result(self):
+        return self.find_element(*self.edit_submit_successful_result).text
