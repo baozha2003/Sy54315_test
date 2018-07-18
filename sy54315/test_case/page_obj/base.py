@@ -76,7 +76,7 @@ class Base(object):
     def mouse_hover(self, by, elem):
         if by == 'XPATH':
             above = self.driver.find_element(By.XPATH, elem)
-        if by == 'NAME':
+        elif by == 'NAME':
             above = self.driver.find_element(By.NAME, elem)
         else:
             pass
