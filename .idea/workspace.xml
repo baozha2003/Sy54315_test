@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8387c63-6184-446e-8a30-9b0231d02916" name="Default" comment="20180726 add driver choose">
+    <list default="true" id="f8387c63-6184-446e-8a30-9b0231d02916" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sy54315/test_case/models/driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/sy54315/test_case/models/driver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe.docx" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sy54315/report/2018-07-25 10_16_49result.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sy54315/test_case/models/myunit.py" beforeDir="false" afterPath="$PROJECT_DIR$/sy54315/test_case/models/myunit.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,29 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="myunit.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sy54315/test_case/models/myunit.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="driver.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sy54315/test_case/models/driver.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="12" column="48" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -100,6 +79,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,32 +90,12 @@
             <path>
               <item name="Sy54315_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="Sy54315_test" type="462c0819:PsiDirectoryNode" />
-              <item name="sy54315" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sy54315_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sy54315_test" type="462c0819:PsiDirectoryNode" />
-              <item name="sy54315" type="462c0819:PsiDirectoryNode" />
-              <item name="report" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sy54315_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sy54315_test" type="462c0819:PsiDirectoryNode" />
-              <item name="sy54315" type="462c0819:PsiDirectoryNode" />
-              <item name="test_case" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sy54315_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sy54315_test" type="462c0819:PsiDirectoryNode" />
-              <item name="sy54315" type="462c0819:PsiDirectoryNode" />
-              <item name="test_case" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="driver" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -168,7 +128,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for welcome_case.WelcomePageTest.test_edit_myself">
+  <component name="RunManager" selected="Python.run_sy54315_test">
     <configuration name="run_sy54315_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Sy54315_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -248,8 +208,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for welcome_case.WelcomePageTest.test_edit_myself" />
         <item itemvalue="Python.run_sy54315_test" />
+        <item itemvalue="Python tests.Unittests for welcome_case.WelcomePageTest.test_edit_myself" />
         <item itemvalue="Python tests.Unittests for login_case.LoginTest.test_login_user_pwd_success" />
         <item itemvalue="Python tests.Unittests in welcome_case.py" />
         <item itemvalue="Python tests.Unittests for welcome_case.WelcomePageTest" />
@@ -386,7 +346,14 @@
       <option name="project" value="LOCAL" />
       <updated>1532485253228</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="20180726 add driver choose">
+      <created>1532591169803</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1532591169803</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -432,12 +399,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24968314" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49873257" weight="0.3259587" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.51204056" side_tool="true" visible="true" weight="0.30876216" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48795944" visible="true" weight="0.30876216" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5126743" side_tool="true" visible="true" weight="0.30876216" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48732573" visible="true" weight="0.30876216" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49619773" weight="0.32684284" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49809885" weight="0.32823366" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -507,7 +473,8 @@
     <MESSAGE value="update base add switch_windows" />
     <MESSAGE value="correct if elif" />
     <MESSAGE value="20180725update remove sleep" />
-    <option name="LAST_COMMIT_MESSAGE" value="20180725update remove sleep" />
+    <MESSAGE value="20180726 add driver choose" />
+    <option name="LAST_COMMIT_MESSAGE" value="20180726 add driver choose" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -515,30 +482,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sy54315/test_case/welcome_case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sy54315/test_case/page_obj/addplant_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="39" column="8" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sy54315/report/2018-05-30 09_39_54result.html" />
-    <entry file="file://$PROJECT_DIR$/sy54315/report/2018-05-30 09_45_19result.html" />
-    <entry file="file://$PROJECT_DIR$/sy54315/test_case/main.py" />
-    <entry file="file://C:/Python36/Lib/unittest/loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="152" selection-start-line="152" selection-end-line="152" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python36/Lib/ntpath.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -735,16 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="88" column="20" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sy54315/test_case/models/function.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="14" column="51" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -783,16 +716,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/geckodriver.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run_sy54315_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="33" column="25" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sy54315/test_case/welcome_case.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -807,20 +730,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sy54315/test_case/models/driver.py">
+    <entry file="file://$PROJECT_DIR$/run_sy54315_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="12" column="48" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="48" />
+        <state relative-caret-position="475">
+          <caret line="33" column="25" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sy54315/report/image/finish_plant_successful_reresult.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sy54315/report/image/subpackage_successful.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sy54315/report/image/search_process_reresult.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sy54315/report/image/Login_success.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sy54315/report/image/edit_successful_result.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sy54315/report/image/addplantsuccess.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sy54315/report/image/addplant_task_success.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sy54315/test_case/models/function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="14" column="51" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sy54315/test_case/models/myunit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sy54315/test_case/models/driver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="20" column="54" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="54" />
         </state>
       </provider>
     </entry>
