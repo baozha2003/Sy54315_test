@@ -33,7 +33,7 @@ def browser(name):
     driver = Remote(command_execute='http://' + host + '/wd/hub',
                     desired_capabilities=dc)
     '''
-    return driver
+    # return driver
 
 
 '''

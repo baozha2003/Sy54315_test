@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f8387c63-6184-446e-8a30-9b0231d02916" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadMe.docx" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sy54315/report/2018-07-25 10_16_49result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sy54315/test_case/models/myunit.py" beforeDir="false" afterPath="$PROJECT_DIR$/sy54315/test_case/models/myunit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sy54315/report/image/addplant_task_success.png" beforeDir="false" afterPath="$PROJECT_DIR$/sy54315/report/image/addplant_task_success.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sy54315/test_case/models/driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/sy54315/test_case/models/driver.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,7 +14,41 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="run_sy54315_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run_sy54315_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="75" column="44" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
+              <folding>
+                <element signature="e#45#60#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="driver.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sy54315/test_case/models/driver.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myunit.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sy54315/test_case/models/myunit.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -48,7 +81,6 @@
         <option value="$PROJECT_DIR$/sy54315/test_case/page_obj/process_page.py" />
         <option value="$PROJECT_DIR$/sy54315/test_case/page_obj/addplant_page.py" />
         <option value="$PROJECT_DIR$/sy54315/test_case/page_obj/codeprint_page.py" />
-        <option value="$PROJECT_DIR$/run_sy54315_test.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/sy54315/test_case/page_obj/plant_page.py" />
         <option value="$PROJECT_DIR$/sy54315/test_case/page_obj/medpack_page.py" />
@@ -60,8 +92,9 @@
         <option value="$PROJECT_DIR$/sy54315/test_case/medpack_case.py" />
         <option value="$PROJECT_DIR$/sy54315/test_case/plant_case.py" />
         <option value="$PROJECT_DIR$/sy54315/test_case/process_case.py" />
-        <option value="$PROJECT_DIR$/sy54315/test_case/models/driver.py" />
+        <option value="$PROJECT_DIR$/run_sy54315_test.py" />
         <option value="$PROJECT_DIR$/sy54315/test_case/models/myunit.py" />
+        <option value="$PROJECT_DIR$/sy54315/test_case/models/driver.py" />
       </list>
     </option>
   </component>
@@ -90,7 +123,20 @@
             <path>
               <item name="Sy54315_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="Sy54315_test" type="462c0819:PsiDirectoryNode" />
-              <item name="driver" type="462c0819:PsiDirectoryNode" />
+              <item name="sy54315" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sy54315_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sy54315_test" type="462c0819:PsiDirectoryNode" />
+              <item name="sy54315" type="462c0819:PsiDirectoryNode" />
+              <item name="test_case" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sy54315_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sy54315_test" type="462c0819:PsiDirectoryNode" />
+              <item name="sy54315" type="462c0819:PsiDirectoryNode" />
+              <item name="test_case" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -353,7 +399,28 @@
       <option name="project" value="LOCAL" />
       <updated>1532591169803</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="20180727 update">
+      <created>1532676636022</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1532676636022</updated>
+    </task>
+    <task id="LOCAL-00020" summary="20180727 update">
+      <created>1532679090470</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1532679090470</updated>
+    </task>
+    <task id="LOCAL-00021" summary="20180727 update">
+      <created>1532681798321</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1532681798321</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -399,16 +466,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24968314" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24968314" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49873257" weight="0.3259587" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5126743" side_tool="true" visible="true" weight="0.30876216" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48732573" visible="true" weight="0.30876216" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.513308" side_tool="true" visible="true" weight="0.30876216" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.486692" visible="true" weight="0.30876216" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49619773" weight="0.32684284" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49809885" weight="0.32823366" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49936628" weight="0.32890856" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49746513" weight="0.3991655" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49683145" weight="0.3991655" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -474,33 +542,15 @@
     <MESSAGE value="correct if elif" />
     <MESSAGE value="20180725update remove sleep" />
     <MESSAGE value="20180726 add driver choose" />
-    <option name="LAST_COMMIT_MESSAGE" value="20180726 add driver choose" />
+    <MESSAGE value="20180727 update" />
+    <option name="LAST_COMMIT_MESSAGE" value="20180727 update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="14" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Python36/Lib/ntpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="240" column="28" selection-start-line="240" selection-start-column="19" selection-end-line="240" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python36/Lib/unittest/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-399" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/driver/HTMLTestRunner_PY3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="106" column="11" selection-start-line="106" selection-start-column="11" selection-end-line="106" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sy54315/report/2018-06-12 10_03_18result.html" />
     <entry file="file://$PROJECT_DIR$/sy54315/test_case/geckodriver.log" />
     <entry file="file://C:/Python36/Lib/site-packages/selenium/webdriver/chrome/webdriver.py">
@@ -536,13 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-1184660488/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="719" column="6" selection-start-line="719" selection-start-column="6" selection-end-line="719" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -730,13 +773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run_sy54315_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="33" column="25" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sy54315/report/image/finish_plant_successful_reresult.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -765,20 +801,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sy54315/test_case/models/myunit.py">
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-1184660488/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="156">
+          <caret line="3650" column="8" selection-start-line="3650" selection-start-column="8" selection-end-line="3650" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sy54315/report/2018-07-27 15_59_22result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geckodriver.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2451" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sy54315/report/2018-07-27 16_43_54result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_sy54315_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="75" column="44" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#45#60#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sy54315/test_case/models/driver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="20" column="54" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="54" />
+        <state relative-caret-position="209">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sy54315/test_case/models/myunit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
