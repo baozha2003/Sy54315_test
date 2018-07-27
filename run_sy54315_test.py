@@ -61,8 +61,11 @@ def send_mail(file_new):
 # ========================找到最新的测试报告文件===========================
 def new_report(testreport):
     lists = os.listdir(testreport)
-    # 重新按时间对目录下的文件进行排序
-    lists.sort(key=lambda fn: os.path.getatime(testreport + "\\" + fn))
+    # sort按key的关键字进行升序排序，lambda的入参fn为lists列表的元素，获取文件的最后修改时间，所以最终以文件时间从小到大排序
+    # 最后对lists元素，按文件修改时间大小从小到大排序。
+    # 获取最新文件的绝对路径，列表中最后一个值,文件夹+文件名
+    # lists.sort(key=lambda fn: os.path.getatime(testreport + "\\" + fn))
+    lists.sort(key=lambda fn: os.path.getatime(testreport + "" + fn))
     file_new = os.path.join(testreport, lists[-1])
     # print(file_new)
     return file_new
