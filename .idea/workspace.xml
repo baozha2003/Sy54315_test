@@ -14,35 +14,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="run_sy54315_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run_sy54315_test.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="myunit.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sy54315/test_case/models/myunit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="75" column="44" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
+            <state relative-caret-position="133">
+              <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
               <folding>
-                <element signature="e#45#60#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="driver.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="driver.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sy54315/test_case/models/driver.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myunit.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sy54315/test_case/models/myunit.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+              <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#0#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,7 +103,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -138,10 +128,15 @@
               <item name="test_case" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Sy54315_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -206,19 +201,6 @@
       <option name="_new_target" value="&quot;login_case.LoginTest.test_login_user_pwd_success&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for welcome_case.WelcomePageTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Sy54315_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sy54315/test_case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;welcome_case.WelcomePageTest&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
     <configuration name="Unittests for welcome_case.WelcomePageTest.test_edit_myself" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Sy54315_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -231,6 +213,19 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;welcome_case.WelcomePageTest.test_edit_myself&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests in myunit.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Sy54315_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sy54315/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/sy54315/test_case/models/myunit.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration name="Unittests in welcome_case.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Sy54315_test" />
@@ -248,17 +243,17 @@
     <list>
       <item itemvalue="Python tests.Unittests for welcome_case.WelcomePageTest.test_edit_myself" />
       <item itemvalue="Python tests.Unittests in welcome_case.py" />
-      <item itemvalue="Python tests.Unittests for welcome_case.WelcomePageTest" />
       <item itemvalue="Python tests.Unittests for login_case.LoginTest.test_login_user_pwd_success" />
       <item itemvalue="Python.run_sy54315_test" />
+      <item itemvalue="Python tests.Unittests in myunit.py" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.run_sy54315_test" />
+        <item itemvalue="Python tests.Unittests in myunit.py" />
         <item itemvalue="Python tests.Unittests for welcome_case.WelcomePageTest.test_edit_myself" />
         <item itemvalue="Python tests.Unittests for login_case.LoginTest.test_login_user_pwd_success" />
         <item itemvalue="Python tests.Unittests in welcome_case.py" />
-        <item itemvalue="Python tests.Unittests for welcome_case.WelcomePageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -420,13 +415,17 @@
       <option name="project" value="LOCAL" />
       <updated>1532681798321</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="20180727 update">
+      <created>1532682441997</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1532682441998</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_welcome_case_WelcomePageTest - 2018.07.13 at 11h 18m 19s.xml">
-      <configuration name="Unittests for welcome_case.WelcomePageTest" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_welcome_case_WelcomePageTest - 2018.07.13 at 11h 30m 08s.xml">
       <configuration name="Unittests for welcome_case.WelcomePageTest" configurationId="tests" />
     </history-entry>
@@ -454,6 +453,9 @@
     <history-entry file="Unittests_for_welcome_case_WelcomePageTest_test_edit_myself - 2018.07.26 at 15h 43m 31s.xml">
       <configuration name="Unittests for welcome_case.WelcomePageTest.test_edit_myself" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_myunit_py - 2018.07.30 at 10h 09m 10s.xml">
+      <configuration name="Unittests in myunit.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -468,10 +470,10 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24968314" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24968314" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49873257" weight="0.3259587" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.513308" side_tool="true" visible="true" weight="0.30876216" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.486692" visible="true" weight="0.30876216" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5139417" side_tool="true" visible="true" weight="0.30876216" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4860583" visible="true" weight="0.30876216" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49619773" weight="0.32684284" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49809885" weight="0.32823366" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -551,6 +553,33 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/run_sy54315_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1273">
+          <caret line="75" column="44" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
+          <folding>
+            <element signature="e#45#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sy54315/test_case/models/myunit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sy54315/test_case/models/driver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sy54315/report/2018-06-12 10_03_18result.html" />
     <entry file="file://$PROJECT_DIR$/sy54315/test_case/geckodriver.log" />
     <entry file="file://C:/Python36/Lib/site-packages/selenium/webdriver/chrome/webdriver.py">
@@ -682,13 +711,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python36/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="742" column="8" selection-start-line="742" selection-start-column="8" selection-end-line="742" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python36/Lib/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -773,27 +795,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sy54315/report/image/finish_plant_successful_reresult.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sy54315/report/image/subpackage_successful.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sy54315/report/image/search_process_reresult.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sy54315/report/image/Login_success.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sy54315/report/image/edit_successful_result.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sy54315/report/image/addplantsuccess.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sy54315/report/image/addplant_task_success.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/sy54315/test_case/models/function.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -808,16 +809,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sy54315/report/2018-07-27 15_59_22result.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/geckodriver.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2451" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sy54315/report/2018-07-27 16_43_54result.html">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://C:/Python36/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="876" column="8" selection-start-line="876" selection-start-column="8" selection-end-line="876" selection-end-column="8" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/run_sy54315_test.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -829,19 +831,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sy54315/test_case/models/driver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sy54315/test_case/models/myunit.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sy54315/test_case/models/driver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,10 +1,17 @@
 from selenium.webdriver import Remote
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 
 
 # 启动浏览器驱动
 def browser(name):
     # driver = webdriver.Chrome(executable_path='C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe')
+    options = Options()
+    options.add_argument('--headless')
+    options.add_argument('--no-sandbox')
+    # options.add_argument('--disable-dev-shm-usage')
+    # driver = webdriver.Chrome(executable_path="/usr/sbin/chromedriver",
+    #                           chrome_options=options)
     try:
         if name == "firefox" or name == "Firefox" or name == "ff":
             print("start browser name :Firefox")
@@ -12,7 +19,8 @@ def browser(name):
             return driver
         elif name == "chrome" or name == "Chrome":
             print("start browser name :Chrome")
-            driver = webdriver.Chrome()
+            driver = webdriver.Chrome(executable_path="/usr/sbin/chromedriver",
+                              chrome_options=options)
             return driver
         elif name == "ie" or name == "Ie":
             print("start browser name :Ie")
