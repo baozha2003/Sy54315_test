@@ -20,7 +20,7 @@ def browser(name):
         elif name == "chrome" or name == "Chrome":
             print("start browser name :Chrome")
             driver = webdriver.Chrome(executable_path="/usr/sbin/chromedriver",
-                              chrome_options=options)
+                                      chrome_options=options)
             return driver
         elif name == "ie" or name == "Ie":
             print("start browser name :Ie")
@@ -41,7 +41,6 @@ def browser(name):
     driver = Remote(command_execute='http://' + host + '/wd/hub',
                     desired_capabilities=dc)
     '''
-    # return driver
 
 
 '''

@@ -86,7 +86,7 @@ class Base(object):
     def WaitElem(driver, xpath):
         WebDriverWait(driver, 0.5, 5).until(EC.visibility_of_element_located((By.XPATH, xpath))).click()
 
-    #窗口切换 传窗口编号 从0开始
-    def switch_to_window(self,nums):
+    # 窗口切换 传窗口编号 从0开始
+    def switch_to_window(self, nums):
         handles = self.driver.window_handles
         self.driver.switch_to_window(handles[nums])
