@@ -2,6 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
 from time import sleep
+import time
 import datetime
 import unittest
 from selenium.webdriver.common.action_chains import ActionChains
@@ -43,6 +44,11 @@ class Base(object):
     # 当天的日期
     def date_today(self):
         return str(datetime.date.today())
+
+    # 当前时间
+    def now_time(self):
+        return str(time.strftime("%Y%m%d%H%I%S", time.localtime( time.time() ) ))
+
 
     # 七天后的日期
     def date_endday(self):
