@@ -15,7 +15,7 @@ class Base(object):
 
     def __init__(self, driver, base_url='http://sytest.54315.com'):
         self.driver = driver
-        self.base_url = 'http://sytest.54315.com'
+        self.base_url = 'http://sytest.54315.com/login'
         self.timeout = 30
 
     def _open(self, url):
