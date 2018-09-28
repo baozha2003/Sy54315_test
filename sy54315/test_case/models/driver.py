@@ -7,6 +7,7 @@ from selenium.webdriver.chrome.options import Options
 def browser(name):
     # driver = webdriver.Chrome(executable_path='C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe')
     options = Options()
+    #设置为无界面启动
     options.add_argument('--headless')
     options.add_argument('--no-sandbox')
     # options.add_argument('--disable-dev-shm-usage')
