@@ -88,5 +88,5 @@ if __name__ == '__main__':
 
     runner.run(discover)  # 运行测试用例
     fp.close()  # 关闭报告文件
-    new_report = new_report(test_report)#找到最新的报告文件
-    send_mail(new_report)#发送报告文件
+    # new_report = new_report(test_report)#找到最新的报告文件
+    # send_mail(new_report)#发送报告文件
